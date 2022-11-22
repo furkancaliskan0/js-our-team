@@ -38,4 +38,14 @@ const teamMembers = [
 
 console.log(teamMembers);
 
+for (let i = 0; i < teamMembers.length; i++) {
+    let teamMembersObj = teamMembers[i];
+
+    console.log("persona");
+
+    for (let key in teamMembersObj) {
+        console.log(teamMembersObj[key]);
+    }
+
+}
 
